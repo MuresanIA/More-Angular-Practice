@@ -29,11 +29,11 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '',
+    redirectTo: '/heroes',
     pathMatch: 'full'
   },
   {
-    path: "**", component: PageNotFoundComponent
+    path: '**', component: PageNotFoundComponent
   }
 ];
 
