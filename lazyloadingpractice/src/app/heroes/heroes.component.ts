@@ -14,7 +14,7 @@ export class HeroesComponent implements OnInit {
       'A test race',
       'A test power',
       "A test description",
-      'https://static.wikia.nocookie.net/elderscrolls/images/3/3a/Hero_of_Sovngarde_00108432.png/revision/latest/scale-to-width-down/300?cb=20200401184442'
+      'https://www.mythfactoryshop.com/35384-large_default/Dragonborn-Pure-Arts-Standard-The-Elder-Scrolls-V-Skyrim.jpg'
     )
   ];
 

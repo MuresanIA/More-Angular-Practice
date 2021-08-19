@@ -1,20 +1,21 @@
-<div class="row">
-    <div class="col-xs-12">
-        <button class="btn btn-success">New Hero</button>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <a href="#" class="list-group-item clearfix" *ngFor="let hero of heroes">
-            <div class="pull-left">
-                <h4 class="list-group-item-heading">{{heroes.hero}}</h4>
-                <p class="list-group-item-text">{{heroes.race}}</p>
-                <p class="list-group-item-text">{{heroes.power}}</p>
-                <p class="list-group-item-text">{{heroes.description}}</p>
-            </div>
-            <span class="pull-right">
-                <img [src]="heroes.imagePath" alt="{{heroes.name}}" class="img-responsive" style="max-height: 50px;">
-            </span>
-        </a>
-    </div>
-</div>
+<table class="table" *ngFor="let hero of heroes">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Hero name</th>
+        <th scope="col">Hero race</th>
+        <th scope="col">Hero power</th>
+        <th scope="col">Hero description</th>
+        <th scope="col">Hero image</th>
+        <th scope="col">Create here</th>
+      </tr>
+      <tbody>
+        <tr>
+          <th scope="row">{{hero.name}}</th>
+          <td>{{hero.race}}</td>
+          <td>{{hero.power}}</td>
+          <td>{{hero.description}}</td>
+          <td><img [src]="hero.imagePath" alt="{{hero.name}}" class="img-responsive" style="max-height: 50px;"></td>
+          <td><button class="btn btn-success">New hero</button></td>
+        </tr>
+    </tbody>
+</table>
