@@ -1,4 +1,4 @@
-<table class="table" *ngFor="let hero of heroes">
+<table class="table">
     <thead class="thead-dark">
       <tr>
         <th scope="col">Hero name</th>
@@ -6,9 +6,9 @@
         <th scope="col">Hero power</th>
         <th scope="col">Hero description</th>
         <th scope="col">Hero image</th>
-        <th scope="col">Create here</th>
+        <th scope="col">Create hero</th>
       </tr>
-      <tbody>
+      <tbody *ngFor="let hero of heroes">
         <tr>
           <th scope="row">{{hero.name}}</th>
           <td>{{hero.race}}</td>

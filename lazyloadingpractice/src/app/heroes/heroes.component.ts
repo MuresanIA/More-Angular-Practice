@@ -15,6 +15,27 @@ export class HeroesComponent implements OnInit {
       'A test power',
       "A test description",
       'https://www.mythfactoryshop.com/35384-large_default/Dragonborn-Pure-Arts-Standard-The-Elder-Scrolls-V-Skyrim.jpg'
+    ),
+    new HeroesModel(
+      'A test hero',
+      'A test race',
+      'A test power',
+      "A test description",
+      'https://www.mythfactoryshop.com/35384-large_default/Dragonborn-Pure-Arts-Standard-The-Elder-Scrolls-V-Skyrim.jpg'
+    ),
+    new HeroesModel(
+      'A test hero',
+      'A test race',
+      'A test power',
+      "A test description",
+      'https://www.mythfactoryshop.com/35384-large_default/Dragonborn-Pure-Arts-Standard-The-Elder-Scrolls-V-Skyrim.jpg'
+    ),
+    new HeroesModel(
+      'A test hero',
+      'A test race',
+      'A test power',
+      "A test description",
+      'https://www.mythfactoryshop.com/35384-large_default/Dragonborn-Pure-Arts-Standard-The-Elder-Scrolls-V-Skyrim.jpg'
     )
   ];
 
